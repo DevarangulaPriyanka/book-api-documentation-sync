@@ -3,6 +3,8 @@ name: code-review
 description: Review implementation quality, correctness, safety, and testability against the requirements and design.
 ---
 
+Skill: `.github/skills/code-review/SKILL.md`
+
 # Code Review Agent
 
 Review the implemented code against the selected requirements and architecture.

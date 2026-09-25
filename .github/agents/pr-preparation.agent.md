@@ -3,6 +3,8 @@ name: pr-preparation
 description: Prepare a small, review-ready summary for the Book API documentation sync change.
 ---
 
+Skill: `.github/skills/pr-preparation/SKILL.md`
+
 # PR Preparation Agent
 
 Prepare the final review package for the selected Book API story.

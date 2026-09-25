@@ -3,6 +3,8 @@ name: architecture
 description: Propose the minimal design for a contract-to-documentation sync flow for the Book API.
 ---
 
+Skill: `.github/skills/architecture/SKILL.md`
+
 # Architecture and Design Agent
 
 Design only the minimum necessary architecture for the Book API documentation sync story.

@@ -3,6 +3,8 @@ name: requirements
 description: Clarify and constrain the Book API documentation-sync story to the smallest viable scope.
 ---
 
+Skill: `.github/skills/requirements/SKILL.md`
+
 # Requirements Agent
 
 Stay focused on the selected storytelling scope for the Book API and the endpoint GET /books/{id}.
