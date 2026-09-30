@@ -1,16 +1,13 @@
 #!/usr/bin/env bash
 set -eu
 
-# Final pre-PR guardrail for the selected Book API documentation-sync story.
-# This ensures the implementation is review-ready before a pull request is opened.
+echo "Starting final pre-PR validation for the Book API documentation sync..."
+python -m pytest tests/ -v
 
-echo "Running pre-PR validation checks..."
+if [ -n "$(git status --porcelain)" ]; then
+	echo "Pre-PR validation failed: the Git working tree is not clean." >&2
+	git status --short
+	exit 1
+fi
 
-# This hook should run the smallest set of final checks relevant to the selected story.
-# Example placeholder only; replace with the project-specific final validation command(s).
-# For example:
-# npm test -- --runInBand
-# pytest -q
-
-# Require clean validation before PR creation.
-exit 0
+echo "Final pre-PR validation passed; the Git working tree is clean."
