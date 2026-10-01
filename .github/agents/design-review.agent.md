@@ -3,6 +3,8 @@ name: design-review
 description: Review the proposed design against the selected requirements and call out risks, gaps, and decisions without implementing code.
 ---
 
+Skill: `.github/skills/design-review/SKILL.md`
+
 # Design Review Agent
 
 Review the design only against the project requirements and selected Book API story.

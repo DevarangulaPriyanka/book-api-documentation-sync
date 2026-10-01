@@ -3,6 +3,8 @@ name: implementation
 description: Implement only the scoped Book API documentation sync workflow without drifting into extra features.
 ---
 
+Skill: `.github/skills/implementation/SKILL.md`
+
 # Implementation Agent
 
 Implement only the selected Book API story and no broader capability.

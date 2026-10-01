@@ -3,6 +3,8 @@ name: verification
 description: Execute the relevant validation steps and report actual results for the Book API documentation-sync story.
 ---
 
+Skill: `.github/skills/verification/SKILL.md`
+
 # Verification Agent
 
 Run the required validation and report only actual results.
